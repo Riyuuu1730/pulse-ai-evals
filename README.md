@@ -48,12 +48,19 @@ What's in this repo
 Folder	File	What it is
 
 1_product/	Pulse_by_Nova_PRD.md	The product requirements for the agent
+
 2_prompts/	Pulse_Prompts.pdf	The agent's system prompts, all versions
+
 3_dataset_and_rubric/	Pulse_Golden_Dataset.xlsx	The rubric, all 32 scored answers, and the judge comparison
+
 4_llm_judge/	Pulse_LLM_Judge_Kit.txt	The blind judge prompt and batches
+
 4_llm_judge/	Pulse_Calibrated_Judge_Kit.txt	The calibrated judge prompt
+
 4_llm_judge/	Pulse_Judge_Results.csv / Pulse_Calibrated_Judge_Results.csv	Both judges' raw scores
+
 5_results/	Pulse_Evals_Case_Study.pdf	The full written case study
+
 6_slides/	Pulse_AI_Evals_Carousel.pdf	The summary slides
 
 Tools used
