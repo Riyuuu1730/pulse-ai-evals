@@ -1,5 +1,3 @@
-# pulse-ai-evals
-AI evals project on Pulse by Nova, a fictional AI support agent: rubric, golden dataset, human review and LLM as a judge.
 Pulse by Nova — An AI Evals Case Study
 
 How would a product manager evaluate an AI agent before shipping it? This is a hands-on answer: I built a fictional AI support agent, then ran a full evaluation on it — a rubric, a golden dataset, human review, and an LLM acting as a judge.
@@ -43,33 +41,29 @@ Every AI product needs evals — without them, every change is a guess.
 A domain expert is essential — the human defines what "good" means. A blind AI judge could not catch what an expert could.
 Evals never stop — test, fix, and test again after every change.
 
-
 What's in this repo
-Folder	File	What it is
+File	What it is
 
-1_product/	Pulse_by_Nova_PRD.md	The product requirements for the agent
+Pulse by Nova_PRD.md.pdf	The product requirements document for the agent
 
-2_prompts/	Pulse_Prompts.pdf	The agent's system prompts, all versions
+Pulse_Prompts.pdf	The agent's system prompts, all versions
 
-3_dataset_and_rubric/	Pulse_Golden_Dataset.xlsx	The rubric, all 32 scored answers, and the judge comparison
+Pulse_Golden_Dataset.xlsx	The rubric, all 32 scored answers, and the human-vs-judge comparison
 
-4_llm_judge/	Pulse_LLM_Judge_Kit.txt	The blind judge prompt and batches
+Pulse_LLM_Judge_Kit.txt	The blind LLM-judge prompt and batches
 
-4_llm_judge/	Pulse_Calibrated_Judge_Kit.txt	The calibrated judge prompt
+Pulse_Calibrated_Judge_Kit.txt	The calibrated LLM-judge prompt
 
-4_llm_judge/	Pulse_Judge_Results.csv / Pulse_Calibrated_Judge_Results.csv	Both judges' raw scores
+Pulse_Evals_Case_Study.pdf	The full written case study
 
-5_results/	Pulse_Evals_Case_Study.pdf	The full written case study
-
-6_slides/	Pulse_AI_Evals_Carousel.pdf	The summary slides
+Pulse_AI_Evals_Slides.pdf	The summary slides
 
 Tools used
 Built in Google AI Studio (Gemini). Evaluation tracked in Excel, the way the approach's authors recommend starting. The LLM judge was run in ChatGPT.
 
 Next step: as a product like this gets real users, the evaluation would move from a spreadsheet to a tracing tool such as Arize Phoenix or LangSmith, to capture and score live conversations at scale.
 
-Credit
 
 The evaluation method follows the work of Hamel Husain and Shreya Shankar on AI evals (their guides).
 
-Riya Murdia · AI Product Owner
+Riya Murdia · AI Product Owner / PM
