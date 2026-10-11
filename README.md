@@ -1,4 +1,4 @@
-Pulse by Nova — An AI Evals Case Study
+Pulse by Nova - An AI Evals Case Study
 
 How would a product manager evaluate an AI agent before shipping it? This is a hands-on answer: I built a fictional AI support agent, then ran a full evaluation on it — a rubric, a golden dataset, human review, and an LLM acting as a judge.
 
