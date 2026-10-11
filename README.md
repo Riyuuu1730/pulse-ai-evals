@@ -44,19 +44,20 @@ Evals never stop — test, fix, and test again after every change.
 What's in this repo
 File	What it is
 
-Pulse by Nova_PRD.md.pdf	The product requirements document for the agent
 
-Pulse_Prompts.pdf	The agent's system prompts, all versions
+| `Pulse by Nova_PRD.md.pdf` | The product requirements for the agent |
 
-Pulse_Golden_Dataset.xlsx	The rubric, all 32 scored answers, and the human-vs-judge comparison
+| `Pulse_Prompts.pdf` | The agent's system prompts, all versions |
 
-Pulse_LLM_Judge_Kit.txt	The blind LLM-judge prompt and batches
+| `Pulse_Golden_Dataset.xlsx` | The rubric, all 32 scored answers, and the blind-vs-calibrated judge comparison |
 
-Pulse_Calibrated_Judge_Kit.txt	The calibrated LLM-judge prompt
+| `Pulse_LLM_Judge_Kit.txt` | The blind judge prompt and batches |
 
-Pulse_Evals_Case_Study.pdf	The full written case study
+| `Pulse_Calibrated_Judge_Kit.txt` | The calibrated judge prompt |
 
-Pulse_AI_Evals_Slides.pdf	The summary slides
+| `Pulse_Evals_Case_Study.pdf` | The full written case study |
+
+| `Pulse_AI_Evals_Slides.pdf` | The summary slides |
 
 Tools used
 Built in Google AI Studio (Gemini). Evaluation tracked in Excel, the way the approach's authors recommend starting. The LLM judge was run in ChatGPT.
