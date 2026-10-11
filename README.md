@@ -57,7 +57,7 @@ File	What it is
 
 | `Pulse_Evals_Case_Study.pdf` | The full written case study |
 
-| `Pulse_AI_Evals_Slides.pdf` | The summary slides |
+| `Pulse_AI_Evals.pdf` | The summary slides |
 
 Tools used
 Built in Google AI Studio (Gemini). Evaluation tracked in Excel, the way the approach's authors recommend starting. The LLM judge was run in ChatGPT.
